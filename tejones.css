@@ -1,4 +1,24 @@
+.body{
+margin-top: 100px;
+background-color: #ffffff;
+font-family: "Lugrasimo";
+}
+
+.fondo{
+    z-index: -1;
+    display: block; 
+    width: 100%; 
+    max-width: 100%;
+     height: auto;
+      margin: 0 auto; 
+      object-fit: contain;
+    }
+.mas{
+
+
+}
 .comprartejas{
+    font-family: "Arial", "sans-serif";
     display: flex;
  box-sizing: border-box;
   margin: 0; 
