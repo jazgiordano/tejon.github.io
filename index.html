@@ -1,66 +1,193 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tu Marca | Soluciones para tu negocio</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="tejones.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEJON | Tejas Cerámicas</title>
+  <meta name="description" content="TEJON, empresa ficticia de tejas cerámicas ubicada en Villa General Belgrano, Córdoba.">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<header>
-		<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-<nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="img/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-center">                                                                                                                                                                  
+
+<header class="site-header">
+  <div class="container navbar">
+    <a href="index.html" class="brand" aria-label="TEJON inicio">
+      <img class="brand-mark" src="assets/casa.png" alt="">
+      <span class="brand-name">TEJON</span>
     </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Inicio</a>
+      <a href="index.html#productos">Productos</a>
+      <a href="index.html#nosotros">Nosotros</a>
+      <a href="index.html#contacto" class="nav-cta">Contacto</a>
+    </nav>
   </div>
-</nav>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">TEJON</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Nuestras Tejas</a>
-        </li>
-           <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
-        </li>
-      </ul>
+</header>
+
+
+<main>
+  <section class="hero">
+    <div class="container hero-content">
+      <span class="eyebrow">Villa General Belgrano · Córdoba</span>
+      <h1>Calidad que te cubre. Diseños que perduran.</h1>
+      <p>En TEJON elaboramos tejas cerámicas pensadas para combinar resistencia, estética y la calidez de los materiales tradicionales.</p>
+      <a class="btn btn-primary" href="#productos">Ver productos</a>
+      <a class="btn btn-light" href="#contacto">Contactanos</a>
     </div>
+  </section>
+
+  <section class="section" id="productos">
+    <div class="container">
+      <div class="production-highlight">
+        <p>La planta de Tejones produce entre 4.000 y 6.000 tejas cerámicas por mes, distribuidas entre los modelos italiano, romano y francés. Gracias a su maquinaria semiautomática y a un estricto control de calidad, la empresa ofrece productos resistentes y duraderos. Desde su fábrica en Villa General Belgrano, abastece proyectos de construcción y distribuidores de todo el país</p>
+      </div>
+  
+      <div class="section-head">
+        <div>
+          <div class="section-kicker">Nuestra línea de productos</div>
+          <h2>Elegí el perfil para tu proyecto</h2>
+        </div>
+        <p>Conocé nuestros tres modelos de tejas cerámicas y elegí el estilo que mejor se adapta a tu obra.</p>
+      </div>
+
+      <div class="products-grid">
+        <a class="product-card" href="italiana.html">
+          <div class="product-image"><img src="assets/italiana.png" alt="Ilustración de teja cerámica Italiana"></div>
+          <div class="product-body">
+            <h3>Italiana</h3>
+            <p>Perfil clásico y elegante, ideal para cubiertas de aspecto tradicional.</p>
+            <span class="product-link">Conocer Italiana →</span>
+          </div>
+        </a>
+
+        <a class="product-card" href="romana.html">
+          <div class="product-image"><img src="assets/romana.png" alt="Ilustración de teja cerámica Romana"></div>
+          <div class="product-body">
+            <h3>Romana</h3>
+            <p>Diseño de líneas simples que busca equilibrio entre estética y funcionalidad.</p>
+            <span class="product-link">Conocer Romana →</span>
+          </div>
+        </a>
+
+        <a class="product-card" href="francesa.html">
+          <div class="product-image"><img src="assets/frances.png" alt="Ilustración de teja cerámica Francesa"></div>
+          <div class="product-body">
+            <h3>Francesa</h3>
+            <p>Formato de inspiración europea para proyectos con una imagen distintiva.</p>
+            <span class="product-link">Conocer Francesa →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+    <div class="colors-section">
+        <div class="colors-heading">
+          <div class="section-kicker">COLORES</div>
+          <h2>Elegí el color para tu proyecto</h2>
+        </div>
+        <div class="colors-grid">
+          <div class="color-card"><img src="assets/Pizarratx.png" alt="Color de teja 1"></div>
+          <div class="color-card"><img src="assets/Roja.png" alt="Color de teja 2"></div>
+          <div class="color-card"><img src="assets/Pizarra.png" alt="Color de teja 3"></div>
+          <div class="color-card"><img src="assets/Grafito.png" alt="Color de teja 4"></div>
+        </div>
+      </div>
+
+  <section class="section section-soft" id="nosotros">
+    <div class="container split">
+      <div class="split-visual" aria-hidden="true"></div>
+      <div class="split-copy">
+        <div class="section-kicker">Quiénes somos</div>
+        <h2>Tradición cerámica, mirada local.</h2>
+        <p>Tejones es una empresa dedicada a la fabricación y comercialización de tejas cerámicas de alta calidad para viviendas, edificios y todo tipo de construcciones. Su objetivo es ofrecer productos resistentes, duraderos y con un diseño atractivo que brinden protección y una excelente terminación a cada proyecto. </p>
+         <p>La planta de Tejones produce entre 4.000 y 6.000 tejas cerámicas por mes, distribuidas entre los modelos italiano, romano y francés. Gracias a su maquinaria semiautomática y a un estricto control de calidad, la empresa ofrece productos resistentes y duraderos. Desde su fábrica en Villa General Belgrano, abastece proyectos de construcción y distribuidores de todo el país</p>
+        <p>Buscamos ofrecer una experiencia simple: asesoramiento, variedad de diseños y soluciones pensadas para viviendas y pequeños proyectos constructivos.</p>
+        
+        <div class="checks">
+          <div class="check"><span>✓</span> Materiales y estética de inspiración tradicional</div>
+          <div class="check"><span>✓</span> Atención cercana y asesoramiento</div>
+          <div class="check"><span>✓</span> Producción orientada al mercado cordobés</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="section-kicker">Por qué elegir TEJON</div>
+          <h2>Una propuesta simple para tu obra.</h2>
+        </div>
+        <p>Todo lo necesario para conocer el producto antes de decidir.</p>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">01</div>
+          <h3>Calidad</h3>
+          <p>Enfoque en terminaciones uniformes y cuidado del producto.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">02</div>
+          <h3>Diseño</h3>
+          <p>Tres perfiles para acompañar diferentes estilos arquitectónicos.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">03</div>
+          <h3>Asesoramiento</h3>
+          <p>Orientación para conocer medidas, cantidades y características.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">04</div>
+          <h3>Identidad local</h3>
+          <p>Una marca pensada desde Villa General Belgrano, Córdoba.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contacto">
+    <div class="container">
+      <div class="contact-box">
+        <div>
+          <div class="section-kicker" style="color:#e6aa89">¿Listo para tu próximo proyecto?</div>
+          <h2>Hablemos de tu techo.</h2>
+          <p>Escribinos para conocer disponibilidad, cantidades orientativas y opciones de nuestros tres modelos de tejas.</p>
+        </div>
+        <a class="btn btn-primary" href="mailto:contacto@tejon.com.ar">contacto@tejon.com.ar</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand footer-brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">TEJON</span>
+        </div>
+        <p>Tejas cerámicas de fabricación artesanal y acabado cuidado para proyectos en Córdoba y toda la Argentina.</p>
+      </div>
+      <div>
+      </div>
+      <div>
+        <div class="footer-title">Contacto</div>
+        <div class="footer-links">
+          <span>Villa General Belgrano, Córdoba</span>
+          <span>+54 3546 676-7676</span>
+          <span>contacto@tejon.com.ar</span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2026 TEJON · Jazmín Giordano, Sofía Darczuk, Brisa Mía Fernandez, Sofía Perucca.</div>
   </div>
+</footer>
 
-<section class="comprartejas "type="button">
-    <p>Comprar Tejas ahora</p>
-</section>
-</nav>
-	</header>
-
-  <main>
-    <section class="fondo" style="position: relative; text-align: center; overflow: hidden;">
-  	 <img src="img/fondo1.png" alt="Logo" class="d-inline-block align-text-center">
-      </section>
-  <section class="mas">
- <a href="#inicio" style="position: absolute; top: 100%; left: 50%; padding-right: 50%; transform: translate(-50%, -50%);"><button class="confirma" style="width: 220px; height: 60px; padding: 12px 24px; font-size: 1.1rem; border-radius: 12px;">Mas productos</button></a>
-</section>
-
-<section class="flex"> 
-          <a id="inicio"><img src="img/logo.png" alt="Inicio"></a>
-</section>
-	</main>
-
-	<footer><p>&copy; 2026 TEJON. Todos los derechos reservados.</p></footer>
-    <footer><p> Pagina hecha por Jazmín Giordano, Sofía Darczuk, Sofía Perucca, Brisa Mia Fernandez</p></footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>
